@@ -1,0 +1,56 @@
+
+
+.carousel-inner {
+    
+    width: 800px;
+    height: 450px;
+    
+
+    
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+
+}
+
+#displayCar{
+    display: flex;
+    justify-content: center;
+}
+
+#carouselControl{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    /* display: -webkit-box; */
+    /* display: flex; */
+
+    justify-content: center;
+}
+#imgCar {
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+#imgLcl {
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0%;
+
+}
+
+
