@@ -2,3 +2,11 @@
     letter-spacing: .2rem;
     font-size: 16pt;
  }
+
+img {
+     width: 35%;
+ }
+
+ .bg-black {
+    background-color: black;
+ }

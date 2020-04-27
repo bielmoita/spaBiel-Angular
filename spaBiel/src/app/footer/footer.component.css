@@ -1,5 +1,8 @@
 /* footer social icons */
-
+ul {
+  list-style-type: none;
+  }
+  
 ul.social-network {
     list-style: none;
     display: inline;
@@ -29,4 +32,14 @@ ul.social-network {
   color: #C13584;
  }
  
-  
+ .bg-final {
+   background-color: black;
+ } 
+ .mapa{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   height: 50%;
+ }
+
+ 
