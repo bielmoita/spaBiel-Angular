@@ -1,12 +1,57 @@
-.container {
-    background-image: url(/assets/img/Contact_Geek.png);
+    
+
+.parallax{
+    background-image: url(/assets/img/Contact_Geek_HR.jpg);
+    width: 100%;
+    min-height: 500px;
+    border-radius: 1em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+h2{
+    font-size: 4rem;
 }
 
 form {
+    padding: 30PX;
+    left:10%;
+    top:29%;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 222, 221) ;
+    color: black;
+    opacity: 2;
     width: 50%;
-    height: 100%;
-
-    border: 1px solid black;
+    height: 500px;
     border-radius: 1em;
+    border-bottom: 20px;
     
 }
+
+.parallax_input{
+    width: 495px;
+}
+.form_button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_button > button:nth-child(2){
+    margin-left: 10px;
+}
+label{
+    text-align: center;
+}
+
+textarea{
+    width: 495px;
+    height: 95px;
+}
+

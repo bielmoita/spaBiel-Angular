@@ -1,52 +1,55 @@
 <div class="container">
-    <h2 class="display-1">
+    <h2>
         Contato
     </h2>
     <hr>
-    <p class="display-4">
+    <p class="display-4" style="font-size: 2.2rem">
         Como podemos ajudar e melhorar sua experiencia?
         Conta ai pra gente:
     </p>
     <hr>
     <hr>
     
+    <div class="parallax">
+        <form action="#">
+            <div>
+                <label for="">Nome:</label>
+                <input class="parallax_input" type="text" id="nome" placeholder="Por favor insira seu nome" required autofocus >
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input class="parallax_input" type="mail" id="email" placeholder="nome@email.com">
+            </div>
+            <div>
+                <label for="">Telefone:</label>
+                <input class="parallax_input" type="text" name="telefone" id="telefone" placeholder="(DDD)XXXX-XXXX">
+            </div>
     
+            <div>
+                <label for="">Concorda em te ligarmos?</label> <br>
+                <input type="radio" id="escolha" name="escolha" value="SIM">
+                <label for="positive">SIM</label>
+                <input type="radio" id="escolha" name="escolha" value="NÃO">
+                <label for="negative">NÃO</label><br>
+                 
+                
+            </div>
     
-    
-    <form action="#">
-        <div>
-            <label for="">Nome:</label>
-            <input type="text" id="nome" placeholder="Por favor insira seu nome" required autofocus >
-        </div>
-        <div>
-            <label for="mail">E-mail:</label>
-            <input type="mail" id="email" placeholder="nome@email.com">
-        </div>
-        <div>
-            <label for="">Telefone:</label>
-            <input type="text" name="telefone" id="telefone" placeholder="(DDD)NNNN-NNNN">
-        </div>
-
-        <div>
-            <label for="">Concorda em te ligarmos?</label> <br>
-            <input type="radio" id="escolha" name="escolha" value="SIM">
-            <label for="positive">SIM</label>
-            <input type="radio" id="escolha" name="escolha" value="NÃO">
-            <label for="negative">NÃO</label><br>
-             
+            <div>
+                <label for="msg">Como podemos lhe ajudar?</label> <br>
+                <textarea id="mensagem"></textarea>
+            </div>
+            <div class="form_button">
+                <button class="button btn btn-dark" type="submit">Enviar sua mensagem</button>
+                <button class="button btn btn-dark" type="reset">Cancelar</button>
+            </div>
             
-        </div>
+        </form>
 
-        <div>
-            <label for="msg">Como podemos lhe ajudar?</label> <br>
-            <textarea id="mensagem"></textarea>
-        </div>
-        <div class="button btn mb-3 mt-2 btn-dark">
-            <button type="submit">Enviar sua mensagem</button>
-            <button type="reset">Cancelar</button>
-        </div>
-        
-    </form>
+    </div>
+    
+    
+    
 
 </div>
 
